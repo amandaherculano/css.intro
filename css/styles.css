@@ -1,0 +1,58 @@
+/* seletores id*/
+/* # é para id */
+#titulo {
+    color: green;
+    text-align: center;
+
+}
+/* todo p com seletor descricao */
+p#descricao{
+    color: blue;
+}
+
+/* todos os p que tiverem a classe promoçao */
+p.promocao{
+    text-align: center;
+    background-color: lightgreen;
+    color:black
+}
+
+h1.promocao{
+    color:yellow;  
+}
+
+
+.nova{
+    color:white;
+
+}
+
+p.final-pagina#rodape{
+    background-color: lightgray;
+    text-align: center ;
+}
+
+/* os dois seltores sofem o efeito, tipo OU */
+.curso, .novo, #rodape{
+    padding: 12px;
+    background-color: aliceblue;
+    border: 1px solid lightgrey;
+}
+ 
+.novo-curso{
+    color:red;
+}
+
+/* seletores */
+        /* seletor por tipo */
+        /*p {
+            color: blue;
+        }
+        h1 {
+            color: green;
+        }
+        strong {
+            color: red;
+        }
+*/
+        /*não pode ter elemento ,style */
